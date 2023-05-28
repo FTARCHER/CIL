@@ -12,7 +12,7 @@ _WINDOW_CASH = {}
 class visualization:
 
     def __init__(self, env, server='http://localhost', port=8097):
-        self.vis = Visdom(env=env, server=server, port=port,offline=True,log_to_filename='./CL_result_test_S_M_GR')
+        self.vis = Visdom(env=env, server=server, port=port,offline=False,log_to_filename='./CL_result_test_P_M_GR')
 
     def visualize_image(self, tensor, name, label=None, env='main', w=250, h=250,
                         update_window_without_label=False):

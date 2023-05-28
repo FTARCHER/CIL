@@ -104,6 +104,7 @@ ENV/
 datasets/
 checkpoints/
 samples/
+dgr/
 .env
 _cache_*
 .download.cgi*
